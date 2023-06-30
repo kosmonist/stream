@@ -5442,5 +5442,6 @@ button.toggleSettings,
 	color: white;
 }
 #sharefilebutton{
-	display:none!important;
+	display: block;
+	/*display:none!important;*/
 }
