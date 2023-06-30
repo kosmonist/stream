@@ -5063,15 +5063,16 @@ select {
     max-width: 100%;
 }
 .darktheme select {
-    background-color: var(--light-grey);
-    border: 1px solid var(--discord-grey-8);
-    color: var(--near-black);
+    background-color: transparent;
+    border: 0px solid var(--discord-grey-8);
+    color: #fff;
+    text-shadow: 0 0 1px #fff;
     border-radius: 4px;
 }
 .darktheme ul {
-  /*  background-color: var(--discord-grey-3);
+    background-color: var(--discord-grey-3);
     border: 1px solid var(--discord-grey-8);
-    color: var(--discord-text);*/
+    color: var(--discord-text);
 }
 ul {
    /*     background-color: var(--lighttheme-1);
